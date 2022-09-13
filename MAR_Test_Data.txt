@@ -1,0 +1,72 @@
+
+Resident Name: Russ Hauenstein
+
+Birthdate: 12/03/1941
+
+Sex: Male
+
+Medication: Lasix 20mg (Furosemide)
+Instructions: Take 1 Tab PO QAM
+Hours: 7am
+
+Medication: Benztropine 2mg (Cogentin)
+Instructions: Take 1 Tab PO BID
+Hours: 7am, 7pm
+
+Medication: KCL 20 meq
+Instructions: Take 1 tab PO QAM
+Hours: 7am
+
+Medication: Xarelto 10mg
+Instructions: Take 1 Tab PO QHS
+Hours: 7pm
+
+Medication: Seroquel 300mg (Quetiapine)
+Instructions: Take 1 Tab PO QHS
+Hours: 7pm
+
+Medication: Tamsulosin 0.4mg (Flomax)
+Instructions: Take 2 Caps PO QHS
+Hours: 7pm
+
+Meds: May Crush Meds & Open Capsules PRN
+
+Diagnosis: Dementia, Essential Tremor, Gerd, Blood Clot, IBS, Hyperlipidemia
+
+Allergies: Latex, Diazepam
+
+Resident Name: Sara Walters
+
+Birthdate: 4/10/1944
+
+Sex: Female
+
+Medication: Coreg 12.5 mg (Carvedilol)
+Instructions: Take 1 Tab PO QAM (Hold if B/P < 110/60)
+Hours: 7am, 7pm
+
+Medication: Synthroid 75 mcg (Levothyroxine)
+Instructions: Take 1 Tab PO QAM
+Hours: 7am
+
+Medication: Plavix 75 mg (Clopidogrel)
+Instructions: Take 1 Tab PO QAM
+Hours: 7 am
+
+Medication: Senna S Plus
+Instructions: Take 2 Tabs PO BID
+Hours: 7am, 7pm
+
+Medication: Famotidine 40 mg (Pepcid Tabs)
+Instruction: Take ? Tab PO BID
+Hours: 7am, 7pm
+
+Medication: Tylenol 325 mg
+Instructions: Take 2 Tabs PO TID
+Hours: 7am, 1pm, 7pm
+
+Meds: May Crush Meds & Open Capsules
+
+Diagnosis: Vascular Dementia, HTN, Stroke, Depression, Gerd
+
+Allergies: Hydralazine, Alendronate
