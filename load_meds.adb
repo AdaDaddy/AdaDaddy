@@ -26,7 +26,7 @@ procedure Load_Meds is
    File_Name     : Unbounded_String;
    Facility      : Unbounded_String;
    The_Medlist   : resident_meds;
-   Dir           : String := "/home/jamesrogers/Ada/meds_loader";
+   Dir           : String := "/home/jamesrogers/Ada/meds_loader/";
    Today         : Time   := Clock;
    The_Year      : String := Trim (Integer'Image (Year (Today)), Both);
    The_Month     : String := Trim (Integer'Image (Month (Today)), Both);
@@ -57,12 +57,24 @@ begin
    File_Name := Get_Line;
 
    -- process the streamlined MAR file
-   read_text_medlist (The_Medlist, To_String (File_Name));
-   display_medlist (The_Medlist);
+   read_text_medlist (The_Medlist, Dir & To_String (File_Name));
+
+   -- Filter the data to remove departed residents
+   Put ("Enter the name of the filter file: ");
+   File_Name := Get_Line;
+   filter_medlist
+     (Medlist => The_Medlist, from => Dir & To_String (File_Name));
+
+   display_medlist
+     (The_Medlist,
+      Dir & clean_name (Facility) & "_" & The_Year & "_" & The_Month &
+      "_" & The_Day & ".txt", To_String(Facility));
 
    -- Output JSON formatted list
 
    write_medlist
-     (The_Medlist, Dir & "/" & clean_name (Facility) & "_" & JSON_Filename);
+     (The_Medlist,
+      Dir & clean_name (Facility) & "_" & The_Year & "_" & The_Month & "_" &
+      The_Day & ".json", To_String(Facility));
 
 end Load_Meds;
